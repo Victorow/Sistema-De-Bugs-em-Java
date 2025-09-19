@@ -132,37 +132,7 @@ npm run dev
 - [x] Configurações de notificação
 - [x] Preferências da conta
 
-## 🗂️ Estrutura do Projeto
 
-taskflow-fullstack/
-├── backend/ # API Spring Boot
-│ ├── src/main/java/
-│ │ └── com/taskflow/api/
-│ │ ├── config/ # Configurações
-│ │ ├── controller/ # Controllers REST
-│ │ ├── dto/ # DTOs
-│ │ ├── entity/ # Entidades JPA
-│ │ ├── repository/ # Repositórios
-│ │ ├── security/ # Configurações JWT
-│ │ └── service/ # Regras de negócio
-│ ├── src/main/resources/
-│ └── pom.xml
-├── frontend/ # App Next.js
-│ ├── app/ # App Router
-│ │ ├── (auth)/ # Páginas de autenticação
-│ │ ├── dashboard/ # Dashboard e funcionalidades
-│ │ └── globals.css
-│ ├── components/ # Componentes reutilizáveis
-│ │ ├── auth/
-│ │ ├── dashboard/
-│ │ ├── tasks/
-│ │ └── ui/
-│ ├── lib/ # Utilitários e configs
-│ ├── types/ # Tipos TypeScript
-│ └── package.json
-└── README.md
-
-text
 
 ## 🧪 Testando a API
 
@@ -176,7 +146,7 @@ curl -X POST http://localhost:8080/api/auth/register
 "password": "123456"
 }'
 
-text
+
 
 ### Login
 
@@ -187,7 +157,7 @@ curl -X POST http://localhost:8080/api/auth/login
 "password": "123456"
 }'
 
-text
+
 
 ### Criar Tarefa
 
@@ -201,7 +171,7 @@ curl -X POST http://localhost:8080/api/tasks
 "status": "PENDING"
 }'
 
-text
+
 
 ## 🤝 Contribuindo
 
